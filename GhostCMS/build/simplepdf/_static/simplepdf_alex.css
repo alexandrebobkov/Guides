@@ -1,3 +1,7 @@
 body {
     color: #06116e;
 }
+
+.simplepdf-coverpage {
+    background-color: #047e2c !important;
+}
