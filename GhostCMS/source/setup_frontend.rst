@@ -4,7 +4,7 @@ SETING UP FRONT END
 Domain Name
 -------------------
 
-.. image:: graphics/switch.jpg
+.. image:: graphics/switch.jpg :width: 300px
 
 Configuring DNS entries for your registered domain name is essential for directing internet traffic to your website and associated services. Proper DNS setup ensures that users can access your site using your chosen domain, and that email and other services function reliably.
 
