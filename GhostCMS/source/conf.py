@@ -30,13 +30,13 @@ exclude_patterns = []
 html_theme = 'classic'
 html_static_path = ['_static']
 
-simplepdf_style = 'default'
+# -- Options for simplepdf output --------------------------------------------
+simplepdf_style = 'green'
 simplepdf_coverpage = True
 simplepdf_toc_depth = 3
 simplepdf_title = 'Getting CMS Up & Running'
 simplepdf_author = 'Alexander B.'
 simplepdf_css = '_static/simplepdf.css'
-simplepdf_style = 'green'
 simplepdf_file_name = 'cms-setup-guide.pdf'
 simplepdf_vars = {
     #'primary': "#23A3EC",
