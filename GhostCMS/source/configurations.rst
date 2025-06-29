@@ -88,7 +88,7 @@ configuration.json
 .. code-block:: json
 
     {
-        "url": "https://techquadbit.net",
+        "url": "https://domain-name.ca",
         "server": {
             "port": 2370,
             "host": "127.0.0.1"
