@@ -86,6 +86,9 @@ Ghost CMS
 ------------------
 
 
+configuration.json
+~~~~~~~~~~~~~~~~~~~~~~
+
 .. code-block:: json
 
     {
