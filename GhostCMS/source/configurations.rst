@@ -89,43 +89,43 @@ Ghost CMS
 .. code-block:: json
 
     {
-  "url": "https://techquadbit.net",
-  "server": {
-    "port": 2370,
-    "host": "127.0.0.1"
-  },
-  "database": {
-    "client": "mysql",
-    "connection": {
-      "host": "127.0.0.1",
-      "user": "ghost-66",
-      "password": "%MIRFnU]qo+Cv@)07&ei",
-      "database": "techquadbit_4"
+        "url": "https://techquadbit.net",
+        "server": {
+        "port": 2370,
+        "host": "127.0.0.1"
+    },
+    "database": {
+        "client": "mysql",
+        "connection": {
+            "host": "127.0.0.1",
+            "user": "ghost-66",
+            "password": "%MIRFnU]qo+Cv@)07&ei",
+            "database": "techquadbit_4"
+        }
+    },
+    "mail": {
+        "transport": "SMTP",
+        "options": {
+            "host": "smtp.mailgun.org",
+            "port": 587,
+            "secure": false,
+            "service": "Mailgun",
+            "auth": {
+                "user": "postmaster@activcount.info",
+                "pass": "@@@@redelanax"
+            }
+        }
+    },
+    "logging": {
+        "transports": [
+            "file",
+            "stdout"
+        ]
+    },
+    "process": "systemd",
+        "paths": {
+        "contentPath": "/var/www/techquadbit.net/content"
     }
-  },
-  "mail": {
-    "transport": "SMTP",
-    "options": {
-      "host": "smtp.mailgun.org",
-      "port": 587,
-      "secure": false,
-      "service": "Mailgun",
-      "auth": {
-        "user": "postmaster@activcount.info",
-        "pass": "@@@@redelanax"
-      }
     }
-  },
-  "logging": {
-    "transports": [
-      "file",
-      "stdout"
-    ]
-  },
-  "process": "systemd",
-  "paths": {
-    "contentPath": "/var/www/techquadbit.net/content"
-  }
-}
 
 
