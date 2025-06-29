@@ -105,14 +105,88 @@ documentation for details.
 
 \sphinxAtStartPar
 Ensure your server is up to date:
-\sphinxcode{\sphinxupquote{\$ sudo apt update \&\& sudo apt upgrade}}
+\sphinxcode{\sphinxupquote{\$ sudo apt update \&\& sudo apt upgrade \sphinxhyphen{}y}}
 
 \item {} 
 \sphinxAtStartPar
 \sphinxstylestrong{Install Node.js, npm, and Yarn}
 
+\end{enumerate}
+
 \sphinxAtStartPar
-Ghost CMS requires Node.js (LTS version). Install Node.js, npm, and Yarn:
+Ghost CMS requires Node.js (LTS version). You may consider looking up Ghost documentatoin to check required version. At the time of publishing this guide, the versions of Nide.js and Ghost CMS are summarized in the table below:
+
+
+\begin{savenotes}\sphinxattablestart
+\sphinxthistablewithglobalstyle
+\centering
+\begin{tabulary}{\linewidth}[t]{TT}
+\sphinxtoprule
+\sphinxstyletheadfamily 
+\sphinxAtStartPar
+Version
+&\sphinxstyletheadfamily 
+\sphinxAtStartPar
+Support Level
+\\
+\sphinxmidrule
+\sphinxtableatstartofbodyhook
+\sphinxAtStartPar
+17.x and below
+&
+\sphinxAtStartPar
+Unsupported
+\\
+\sphinxhline
+\sphinxAtStartPar
+18.x (Node v18 Hydrogen LTS)
+&
+\sphinxAtStartPar
+Supported
+\\
+\sphinxhline
+\sphinxAtStartPar
+19.x
+&
+\sphinxAtStartPar
+Unsupported
+\\
+\sphinxhline
+\sphinxAtStartPar
+20.x (Node v20 Iron LTS)
+&
+\sphinxAtStartPar
+Recommended
+\\
+\sphinxhline
+\sphinxAtStartPar
+21.x
+&
+\sphinxAtStartPar
+Unsupported
+\\
+\sphinxhline
+\sphinxAtStartPar
+22.x (Node v22 Jod LTS)
+&
+\sphinxAtStartPar
+Supported
+\\
+\sphinxhline
+\sphinxAtStartPar
+23.x and above
+&
+\sphinxAtStartPar
+Unsupported
+\\
+\sphinxbottomrule
+\end{tabulary}
+\sphinxtableafterendhook\par
+\sphinxattableend\end{savenotes}
+
+\sphinxAtStartPar
+To install Node.js, npm, and Yarn:
+\begin{quote}
 
 \sphinxAtStartPar
 \sphinxcode{\sphinxupquote{\$ curl \sphinxhyphen{}sL https://deb.nodesource.com/setup\_18.x | sudo \sphinxhyphen{}E bash \sphinxhyphen{}}}
@@ -122,7 +196,9 @@ Ghost CMS requires Node.js (LTS version). Install Node.js, npm, and Yarn:
 
 \sphinxAtStartPar
 \sphinxcode{\sphinxupquote{\$ sudo npm install \sphinxhyphen{}g yarn}}
-
+\end{quote}
+\begin{enumerate}
+\sphinxsetlistlabels{\arabic}{enumi}{enumii}{}{.}%
 \item {} 
 \sphinxAtStartPar
 \sphinxstylestrong{Install Ghost\sphinxhyphen{}CLI}
