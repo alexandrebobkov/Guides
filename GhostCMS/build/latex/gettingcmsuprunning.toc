@@ -1,0 +1,15 @@
+\babel@toc {english}{}\relax 
+\contentsline {chapter}{\numberline {1}GHOST CMS INSTALLATION}{3}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Installation Steps}{3}{section.1.1}%
+\contentsline {chapter}{\numberline {2}SETING UP FRONT END}{5}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Domain Name}{5}{section.2.1}%
+\contentsline {subsection}{\numberline {2.1.1}DNS Configuration}{5}{subsection.2.1.1}%
+\contentsline {section}{\numberline {2.2}E\sphinxhyphen {}Mail Delivery Services}{5}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}Marketing E\sphinxhyphen {}Mail Campaigns (MAILGUN)}{5}{subsection.2.2.1}%
+\contentsline {subsection}{\numberline {2.2.2}Business E\sphinxhyphen {}Mail (Google Workspace)}{6}{subsection.2.2.2}%
+\contentsline {chapter}{\numberline {3}CONFIGURATIONS}{7}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Nginx}{7}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Ghost CMS}{8}{section.3.2}%
+\contentsline {chapter}{\numberline {4}FREQUENTLY USED COMMANDS}{11}{chapter.4}%
+\contentsline {section}{\numberline {4.1}To specify the Node.js versionto use for Ghost CMS}{11}{section.4.1}%
+\contentsline {section}{\numberline {4.2}To list information about the Ghost CMS instance}{11}{section.4.2}%
