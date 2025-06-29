@@ -1,5 +1,8 @@
-SETING UP DOMAIN
+SETING UP FRONT END
 ==================
+
+DOMAIN DNS
+-------------------
 
 .. image:: graphics/switch.jpg
 
