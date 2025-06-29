@@ -18,6 +18,8 @@ release = '06-2025'
 
 extensions = [
     "sphinx.ext.autodoc",
+    "sphinx.ext.mathjax",
+    "sphinx.ext.imgmath",
     #"sphinx_simplepdf",
 ]
 
