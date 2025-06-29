@@ -46,7 +46,7 @@ simplepdf_file_name = 'cms-setup-guide.pdf'
 simplepdf_vars = {
     'primary': '#ADD8E6',
     'secondary': "#A87403",
-    'cover': '#ADD8E6',
+    'cover': "#1525B4",
     'cover-overlay': 'rgba(173,216,230, 1)',
     'links': '#FF3333',
     'bottom-center-content': '"Getting CMS Up & Running"',
