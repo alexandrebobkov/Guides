@@ -88,7 +88,7 @@ configuration.json
 .. code-block:: json
 
     {
-        "url": "https://techquadbit.net",
+        "url": "https://domain-name.ca",
         "server": {
             "port": 2370,
             "host": "127.0.0.1"
@@ -98,8 +98,8 @@ configuration.json
             "connection": {
                 "host": "127.0.0.1",
                 "user": "ghost-66",
-                "password": "%MIRFnU]qo+Cv@)07&ei",
-                "database": "techquadbit_4"
+                "password": "generated_password",
+                "database": "ghost_db"
             }
         },
         "mail": {
@@ -123,7 +123,7 @@ configuration.json
         },
         "process": "systemd",
         "paths": {
-            "contentPath": "/var/www/techquadbit.net/content"
+            "contentPath": "/var/www/ghost-cms-website/content"
         }
     }
 
