@@ -44,6 +44,8 @@ simplepdf_title = 'Getting CMS Up & Running'
 simplepdf_author = 'Alexander B.'
 simplepdf_file_name = 'cms-setup-guide.pdf'
 simplepdf_vars = {
+    'primary': "#23F3FA",
+    'secondary': "#A87403",
     'links': '#FF3333',
     'bottom-center-content': '"Getting CMS Up & Running"',
     'bottom-right-content': '"Alexander B."',
