@@ -15,13 +15,13 @@ documentation for details.
    :maxdepth: 2
    :caption: Contents:
 
-   installing_ghost
-   settingup_domain
+   setup_backend
+   setup_frontend
 
 .. toctree::
    :maxdepth: 1
    :caption: Additional Resources:
-   
+
    configurations
    frequent_commands
 
