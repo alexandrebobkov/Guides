@@ -33,7 +33,7 @@ Ghost CMS requires Node.js (LTS version). You may consider looking up Ghost docu
 
 To install Node.js, npm, and Yarn:  
 
-   ``$ curl -sL https://deb.nodesource.com/setup_18.x | sudo -E bash -``  
+   ``$ curl -sL https://deb.nodesource.com/setup_21.x | sudo -E bash -``  
 
    ``$ sudo apt install -y nodejs``  
 
