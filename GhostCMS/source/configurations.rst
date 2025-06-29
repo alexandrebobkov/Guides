@@ -7,18 +7,17 @@ Nginx
 Reverse Proxy Configuration
 
 .. code-block:: bash
+ 
+    map $status $header_content_type_options {
+        204 "";
+        default "nosniff";
+    }
 
-    ``` bash 
-map $status $header_content_type_options {
-    204 "";
-    default "nosniff";
-}
+    server {
+        listen 80;
+        listen [::]:80;
 
-server {
-    listen 80;
-    listen [::]:80;
-
-    server_name activcount.ca www.activcount.ca;
+        server_name activcount.ca www.activcount.ca;
     root /var/www/activcount/system/nginx-root; # Used for acme.sh SSL verification (https://acme.sh)
 
     location / {
