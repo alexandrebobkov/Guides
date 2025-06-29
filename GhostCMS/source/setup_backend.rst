@@ -13,7 +13,23 @@ Installation Steps
 
 Ghost CMS requires Node.js (LTS version). You may consider looking up Ghost documentatoin to check required version. At the time of publishing this guide, the versions of Nide.js and Ghost CMS are summarized in the table below:
    
-  
++-----------------------------+------------------+
+| Version                     | Support Level    |
++=============================+==================+
+| 17.x and below              | Unsupported      |
++-----------------------------+------------------+
+| 18.x (Node v18 Hydrogen LTS)| Supported        |
++-----------------------------+------------------+
+| 19.x                        | Unsupported      |
++-----------------------------+------------------+
+| 20.x (Node v20 Iron LTS)    | Recommended      |
++-----------------------------+------------------+
+| 21.x                        | Unsupported      |
++-----------------------------+------------------+
+| 22.x (Node v22 Jod LTS)     | Supported        |
++-----------------------------+------------------+
+| 23.x and above              | Unsupported      |
++-----------------------------+------------------+  
 
 To install Node.js, npm, and Yarn:  
 
