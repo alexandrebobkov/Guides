@@ -1,5 +1,5 @@
 SETING UP FRONT END
-==================
+====================
 
 Domain Name
 -------------------
@@ -18,8 +18,11 @@ DNS Configuration
 | MX   | domain-name.ca   | mail.domain-name.ca |
 +------+------------------+---------------------+
 
-E-Mail Delivery Service
+E-Mail Delivery Services
 -------------------------
 
-MAILGUN
-^^^^^^^^^^^^^^^^^^^
+Marketing E-Mail Campaigns (MAILGUN)
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Business E-Mail (Google Workspace)
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
