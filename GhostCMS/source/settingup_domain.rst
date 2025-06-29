@@ -18,3 +18,5 @@ DNS Configuration
 | MX   | domain-name.ca   | mail.domain-name.ca |
 +------+------------------+---------------------+
 
+MAILGUN
+--------------------
