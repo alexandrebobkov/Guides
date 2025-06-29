@@ -123,7 +123,7 @@ configuration.json
         },
         "process": "systemd",
         "paths": {
-            "contentPath": "/var/www/techquadbit.net/content"
+            "contentPath": "/var/www/ghost-cms-website/content"
         }
     }
 
