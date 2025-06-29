@@ -18,24 +18,24 @@ Reverse Proxy Configuration
         listen [::]:80;
 
         server_name activcount.ca www.activcount.ca;
-    root /var/www/activcount/system/nginx-root; # Used for acme.sh SSL verification (https://acme.sh)
+        root /var/www/activcount/system/nginx-root; # Used for acme.sh SSL verification (https://acme.sh)
 
-    location / {
-        proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
-        proxy_set_header X-Forwarded-Proto $scheme;
-        proxy_set_header X-Real-IP $remote_addr;
-        proxy_set_header Host $http_host;
-        proxy_pass http://127.0.0.1:2368;
+        location / {
+            proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+            proxy_set_header X-Forwarded-Proto $scheme;
+            proxy_set_header X-Real-IP $remote_addr;
+            proxy_set_header Host $http_host;
+            proxy_pass http://127.0.0.1:2368;
 
-        add_header X-Content-Type-Options $header_content_type_options;
-    }
+            add_header X-Content-Type-Options $header_content_type_options;
+        }
 
-    location ~ /.well-known {
-        allow all;
-    }
+        location ~ /.well-known {
+            allow all;
+        }
 
     client_max_body_size 50m;
-}
+    }
 
 Ghost CMS
 ------------------
