@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+
+<html lang="en" data-content_root="./">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>SETING UP FRONT END &#8212; Getting CMS Up &amp; Running 06-2025 documentation</title>
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=03e43079" />
+    <link rel="stylesheet" type="text/css" href="_static/classic.css?v=2bf1fcf8" />
+    
+    <script src="_static/documentation_options.js?v=e6ef2064"></script>
+    <script src="_static/doctools.js?v=9bcbadda"></script>
+    <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
+    
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="CONFIGURATIONS" href="configurations.html" />
+    <link rel="prev" title="GHOST CMS INSTALLATION" href="setup_backend.html" /> 
+  </head><body>
+    <div class="related" role="navigation" aria-label="Related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="configurations.html" title="CONFIGURATIONS"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="setup_backend.html" title="GHOST CMS INSTALLATION"
+             accesskey="P">previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="index.html">Getting CMS Up &amp; Running 06-2025 documentation</a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">SETING UP FRONT END</a></li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <section id="seting-up-front-end">
+<h1>SETING UP FRONT END<a class="headerlink" href="#seting-up-front-end" title="Link to this heading">¶</a></h1>
+<section id="domain-name">
+<h2>Domain Name<a class="headerlink" href="#domain-name" title="Link to this heading">¶</a></h2>
+<img alt="_images/switch.jpg" src="_images/switch.jpg" />
+<p>Configuring DNS entries for your registered domain name is essential for directing internet traffic to your website and associated services. Proper DNS setup ensures that users can access your site using your chosen domain, and that email and other services function reliably.</p>
+<p>You can typically find your domain name details in your domain registrar’s account dashboard or in the confirmation email you received when you registered the domain. This information is necessary for managing DNS records and verifying domain ownership.</p>
+<section id="dns-configuration">
+<h3>DNS Configuration<a class="headerlink" href="#dns-configuration" title="Link to this heading">¶</a></h3>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>Type</p></th>
+<th class="head"><p>Name</p></th>
+<th class="head"><p>Content</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>A</p></td>
+<td><p>domain-name.ca</p></td>
+<td><p>Public IP Address</p></td>
+</tr>
+<tr class="row-odd"><td><p>MX</p></td>
+<td><p>domain-name.ca</p></td>
+<td><p>mail.domain-name.ca</p></td>
+</tr>
+</tbody>
+</table>
+</section>
+</section>
+<section id="e-mail-delivery-services">
+<h2>E-Mail Delivery Services<a class="headerlink" href="#e-mail-delivery-services" title="Link to this heading">¶</a></h2>
+<section id="marketing-e-mail-campaigns-mailgun">
+<h3>Marketing E-Mail Campaigns (MAILGUN)<a class="headerlink" href="#marketing-e-mail-campaigns-mailgun" title="Link to this heading">¶</a></h3>
+<div class="admonition important">
+<p class="admonition-title">Important</p>
+<p>To enable Ghost CMS to send authentication emails, newsletters, and marketing messages, you need to configure an email delivery service. Mailgun is natively supported by Ghost CMS, making integration simple and reliable. Just sign up for a Mailgun account, add your domain, and update your Ghost configuration to start sending emails with minimal hassle.</p>
+</div>
+</section>
+<section id="business-e-mail-google-workspace">
+<h3>Business E-Mail (Google Workspace)<a class="headerlink" href="#business-e-mail-google-workspace" title="Link to this heading">¶</a></h3>
+</section>
+</section>
+</section>
+
+
+            <div class="clearer"></div>
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="Main">
+        <div class="sphinxsidebarwrapper">
+  <div>
+    <h3><a href="index.html">Table of Contents</a></h3>
+    <ul>
+<li><a class="reference internal" href="#">SETING UP FRONT END</a><ul>
+<li><a class="reference internal" href="#domain-name">Domain Name</a><ul>
+<li><a class="reference internal" href="#dns-configuration">DNS Configuration</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#e-mail-delivery-services">E-Mail Delivery Services</a><ul>
+<li><a class="reference internal" href="#marketing-e-mail-campaigns-mailgun">Marketing E-Mail Campaigns (MAILGUN)</a></li>
+<li><a class="reference internal" href="#business-e-mail-google-workspace">Business E-Mail (Google Workspace)</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+  </div>
+  <div>
+    <h4>Previous topic</h4>
+    <p class="topless"><a href="setup_backend.html"
+                          title="previous chapter">GHOST CMS INSTALLATION</a></p>
+  </div>
+  <div>
+    <h4>Next topic</h4>
+    <p class="topless"><a href="configurations.html"
+                          title="next chapter">CONFIGURATIONS</a></p>
+  </div>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="_sources/setup_frontend.rst.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<search id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"/>
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</search>
+<script>document.getElementById('searchbox').style.display = "block"</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="Related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="configurations.html" title="CONFIGURATIONS"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="setup_backend.html" title="GHOST CMS INSTALLATION"
+             >previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="index.html">Getting CMS Up &amp; Running 06-2025 documentation</a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">SETING UP FRONT END</a></li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+    &#169; Copyright 2025, Alexander B..
+      Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 8.2.3.
+    </div>
+  </body>
+</html>
