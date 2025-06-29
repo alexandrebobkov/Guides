@@ -98,8 +98,8 @@ configuration.json
             "connection": {
                 "host": "127.0.0.1",
                 "user": "ghost-66",
-                "password": "%MIRFnU]qo+Cv@)07&ei",
-                "database": "techquadbit_4"
+                "password": "generated_password",
+                "database": "ghost_db"
             }
         },
         "mail": {
