@@ -22,11 +22,11 @@ Ghost CMS requires Node.js (LTS version). You may consider looking up Ghost docu
 +-----------------------------+------------------+
 | 19.x                        | Unsupported      |
 +-----------------------------+------------------+
-| 20.x (Node v20 Iron LTS)    | **Recommended**  |
+| **20.x (Node v20 Iron LTS)**| **Recommended**  |
 +-----------------------------+------------------+
 | 21.x                        | Unsupported      |
 +-----------------------------+------------------+
-| 22.x (Node v22 Jod LTS)     | **Supported**    |
+| **22.x (Node v22 Jod LTS)** | **Supported**    |
 +-----------------------------+------------------+
 | 23.x and above              | Unsupported      |
 +-----------------------------+------------------+  
