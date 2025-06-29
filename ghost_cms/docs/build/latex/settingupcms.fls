@@ -1,4 +1,4 @@
-PWD /home/alex/MyProjects/Guides/ghost_cms/docs/build/latex
+PWD /home/alex/github/Guides/ghost_cms/docs/build/latex
 INPUT /etc/texmf/web2c/texmf.cnf
 INPUT /usr/share/texmf/web2c/texmf.cnf
 INPUT /usr/share/texlive/texmf-dist/web2c/texmf.cnf
@@ -193,14 +193,14 @@ INPUT /usr/share/texlive/texmf-dist/tex/generic/infwarerr/infwarerr.sty
 INPUT /usr/share/texlive/texmf-dist/tex/generic/infwarerr/infwarerr.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/hycolor/hycolor.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/hycolor/hycolor.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/auxhook/auxhook.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/auxhook/auxhook.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/refcount/refcount.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/refcount/refcount.sty
 INPUT /usr/share/texlive/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
 INPUT /usr/share/texlive/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
+INPUT /usr/share/texlive/texmf-dist/tex/generic/stringenc/stringenc.sty
+INPUT /usr/share/texlive/texmf-dist/tex/generic/stringenc/stringenc.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def
 INPUT /usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def
 INPUT /usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def
@@ -228,8 +228,8 @@ INPUT /usr/share/texlive/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
 INPUT /usr/share/texlive/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
 INPUT /usr/share/texlive/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/oberdiek/hypcap.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/oberdiek/hypcap.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/hypcap/hypcap.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/hypcap/hypcap.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/letltxmacro/letltxmacro.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/letltxmacro/letltxmacro.sty
 INPUT ./sphinxmessages.sty
