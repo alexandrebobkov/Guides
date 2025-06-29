@@ -6,6 +6,8 @@
 # -- Project information -----------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
+import sphinx_simplepdf
+
 project = 'Getting CMS Up & Running'
 copyright = '2025, Alexander B.'
 author = 'Alexander B.'
