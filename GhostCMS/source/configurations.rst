@@ -41,7 +41,7 @@ Reverse Proxy Configuration (non-SSL)
 
     This configuration is for a reverse proxy setup with Nginx, which forwards requests to the Ghost CMS instance running on port 2368. The `X-Content-Type-Options` header is set to `nosniff` to prevent MIME type sniffing, enhancing security.
 
-    Ensure that the server name matches your domain and that the root directory is set correctly.
+    Ensure that the server name matches your domain and that the root directory and port number are set correctly.
 
 Reverse Proxy Configuration (SSL)
 
