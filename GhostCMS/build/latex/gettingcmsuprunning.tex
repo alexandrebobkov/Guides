@@ -102,19 +102,23 @@ documentation for details.
 \item {} 
 \sphinxAtStartPar
 \sphinxstylestrong{Update your system}
+\begin{quote}
 
 \sphinxAtStartPar
 Ensure your server is up to date:
 \sphinxcode{\sphinxupquote{\$ sudo apt update \&\& sudo apt upgrade \sphinxhyphen{}y}}
+\end{quote}
 
 \item {} 
 \sphinxAtStartPar
 \sphinxstylestrong{Install Node.js, npm, and Yarn}
-
-\end{enumerate}
+\begin{quote}
 
 \sphinxAtStartPar
 Ghost CMS requires Node.js (LTS version). You may consider looking up Ghost documentatoin to check required version. At the time of publishing this guide, the versions of Nide.js and Ghost CMS are summarized in the table below:
+\end{quote}
+
+\end{enumerate}
 
 
 \begin{savenotes}\sphinxattablestart
@@ -183,10 +187,10 @@ Unsupported
 \end{tabulary}
 \sphinxtableafterendhook\par
 \sphinxattableend\end{savenotes}
+\begin{quote}
 
 \sphinxAtStartPar
 To install Node.js, npm, and Yarn:
-\begin{quote}
 
 \sphinxAtStartPar
 \sphinxcode{\sphinxupquote{\$ curl \sphinxhyphen{}sL https://deb.nodesource.com/setup\_21.x | sudo \sphinxhyphen{}E bash \sphinxhyphen{}}}
@@ -202,16 +206,19 @@ To install Node.js, npm, and Yarn:
 \item {} 
 \sphinxAtStartPar
 \sphinxstylestrong{Install Ghost\sphinxhyphen{}CLI}
+\begin{quote}
 
 \sphinxAtStartPar
 Ghost\sphinxhyphen{}CLI is a command\sphinxhyphen{}line tool for installing and managing Ghost:
 
 \sphinxAtStartPar
 \sphinxcode{\sphinxupquote{\$ sudo npm install \sphinxhyphen{}g ghost\sphinxhyphen{}cli@latest}}
+\end{quote}
 
 \item {} 
 \sphinxAtStartPar
 \sphinxstylestrong{Create a directory for Ghost}
+\begin{quote}
 
 \sphinxAtStartPar
 Choose a directory (e.g., /var/www/ghost) and set correct permissions:
@@ -224,40 +231,49 @@ Choose a directory (e.g., /var/www/ghost) and set correct permissions:
 
 \sphinxAtStartPar
 \sphinxcode{\sphinxupquote{\$ cd /var/www/ghost}}
+\end{quote}
 
 \item {} 
 \sphinxAtStartPar
 \sphinxstylestrong{Install Ghost}
+\begin{quote}
 
 \sphinxAtStartPar
 Run the install command inside your Ghost directory:
 
 \sphinxAtStartPar
 \sphinxcode{\sphinxupquote{\$ ghost install}}
+\end{quote}
 
 \item {} 
 \sphinxAtStartPar
 \sphinxstylestrong{Configure Nginx and SSL (optional but recommended)}
+\begin{quote}
 
 \sphinxAtStartPar
 Ghost\sphinxhyphen{}CLI can set up Nginx and SSL for you during installation. Follow the prompts to enable these features.
+\end{quote}
 
 \item {} 
 \sphinxAtStartPar
 \sphinxstylestrong{Start Ghost}
+\begin{quote}
 
 \sphinxAtStartPar
 Once installed, start Ghost:
 
 \sphinxAtStartPar
 \sphinxcode{\sphinxupquote{\$ ghost start}}
+\end{quote}
 
 \item {} 
 \sphinxAtStartPar
 \sphinxstylestrong{Access the Ghost Admin}
+\begin{quote}
 
 \sphinxAtStartPar
 Open your browser and go to \sphinxcode{\sphinxupquote{http://your\sphinxhyphen{}domain.ca/ghost}} to complete the setup via the web interface.
+\end{quote}
 
 \end{enumerate}
 

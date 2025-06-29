@@ -46,12 +46,17 @@
 <h2>Installation Steps<a class="headerlink" href="#installation-steps" title="Link to this heading">¶</a></h2>
 <ol class="arabic">
 <li><p><strong>Update your system</strong></p>
-<p>Ensure your server is up to date:
+<blockquote>
+<div><p>Ensure your server is up to date:
 <code class="docutils literal notranslate"><span class="pre">$</span> <span class="pre">sudo</span> <span class="pre">apt</span> <span class="pre">update</span> <span class="pre">&amp;&amp;</span> <span class="pre">sudo</span> <span class="pre">apt</span> <span class="pre">upgrade</span> <span class="pre">-y</span></code></p>
+</div></blockquote>
 </li>
-<li><p><strong>Install Node.js, npm, and Yarn</strong></p></li>
+<li><p><strong>Install Node.js, npm, and Yarn</strong></p>
+<blockquote>
+<div><p>Ghost CMS requires Node.js (LTS version). You may consider looking up Ghost documentatoin to check required version. At the time of publishing this guide, the versions of Nide.js and Ghost CMS are summarized in the table below:</p>
+</div></blockquote>
+</li>
 </ol>
-<p>Ghost CMS requires Node.js (LTS version). You may consider looking up Ghost documentatoin to check required version. At the time of publishing this guide, the versions of Nide.js and Ghost CMS are summarized in the table below:</p>
 <table class="docutils align-default">
 <thead>
 <tr class="row-odd"><th class="head"><p>Node.js Version</p></th>
@@ -82,36 +87,48 @@
 </tr>
 </tbody>
 </table>
-<p>To install Node.js, npm, and Yarn:</p>
 <blockquote>
-<div><p><code class="docutils literal notranslate"><span class="pre">$</span> <span class="pre">curl</span> <span class="pre">-sL</span> <span class="pre">https://deb.nodesource.com/setup_21.x</span> <span class="pre">|</span> <span class="pre">sudo</span> <span class="pre">-E</span> <span class="pre">bash</span> <span class="pre">-</span></code></p>
+<div><p>To install Node.js, npm, and Yarn:</p>
+<p><code class="docutils literal notranslate"><span class="pre">$</span> <span class="pre">curl</span> <span class="pre">-sL</span> <span class="pre">https://deb.nodesource.com/setup_21.x</span> <span class="pre">|</span> <span class="pre">sudo</span> <span class="pre">-E</span> <span class="pre">bash</span> <span class="pre">-</span></code></p>
 <p><code class="docutils literal notranslate"><span class="pre">$</span> <span class="pre">sudo</span> <span class="pre">apt</span> <span class="pre">install</span> <span class="pre">-y</span> <span class="pre">nodejs</span></code></p>
 <p><code class="docutils literal notranslate"><span class="pre">$</span> <span class="pre">sudo</span> <span class="pre">npm</span> <span class="pre">install</span> <span class="pre">-g</span> <span class="pre">yarn</span></code></p>
 </div></blockquote>
 <ol class="arabic">
 <li><p><strong>Install Ghost-CLI</strong></p>
-<p>Ghost-CLI is a command-line tool for installing and managing Ghost:</p>
+<blockquote>
+<div><p>Ghost-CLI is a command-line tool for installing and managing Ghost:</p>
 <p><code class="docutils literal notranslate"><span class="pre">$</span> <span class="pre">sudo</span> <span class="pre">npm</span> <span class="pre">install</span> <span class="pre">-g</span> <span class="pre">ghost-cli&#64;latest</span></code></p>
+</div></blockquote>
 </li>
 <li><p><strong>Create a directory for Ghost</strong></p>
-<p>Choose a directory (e.g., /var/www/ghost) and set correct permissions:</p>
+<blockquote>
+<div><p>Choose a directory (e.g., /var/www/ghost) and set correct permissions:</p>
 <p><code class="docutils literal notranslate"><span class="pre">$</span> <span class="pre">sudo</span> <span class="pre">mkdir</span> <span class="pre">-p</span> <span class="pre">/var/www/ghost</span></code></p>
 <p><code class="docutils literal notranslate"><span class="pre">$</span> <span class="pre">sudo</span> <span class="pre">chown</span> <span class="pre">$USER:$USER</span> <span class="pre">/var/www/ghost</span></code></p>
 <p><code class="docutils literal notranslate"><span class="pre">$</span> <span class="pre">cd</span> <span class="pre">/var/www/ghost</span></code></p>
+</div></blockquote>
 </li>
 <li><p><strong>Install Ghost</strong></p>
-<p>Run the install command inside your Ghost directory:</p>
+<blockquote>
+<div><p>Run the install command inside your Ghost directory:</p>
 <p><code class="docutils literal notranslate"><span class="pre">$</span> <span class="pre">ghost</span> <span class="pre">install</span></code></p>
+</div></blockquote>
 </li>
 <li><p><strong>Configure Nginx and SSL (optional but recommended)</strong></p>
-<p>Ghost-CLI can set up Nginx and SSL for you during installation. Follow the prompts to enable these features.</p>
+<blockquote>
+<div><p>Ghost-CLI can set up Nginx and SSL for you during installation. Follow the prompts to enable these features.</p>
+</div></blockquote>
 </li>
 <li><p><strong>Start Ghost</strong></p>
-<p>Once installed, start Ghost:</p>
+<blockquote>
+<div><p>Once installed, start Ghost:</p>
 <p><code class="docutils literal notranslate"><span class="pre">$</span> <span class="pre">ghost</span> <span class="pre">start</span></code></p>
+</div></blockquote>
 </li>
 <li><p><strong>Access the Ghost Admin</strong></p>
-<p>Open your browser and go to <code class="docutils literal notranslate"><span class="pre">http://your-domain.ca/ghost</span></code> to complete the setup via the web interface.</p>
+<blockquote>
+<div><p>Open your browser and go to <code class="docutils literal notranslate"><span class="pre">http://your-domain.ca/ghost</span></code> to complete the setup via the web interface.</p>
+</div></blockquote>
 </li>
 </ol>
 </section>
