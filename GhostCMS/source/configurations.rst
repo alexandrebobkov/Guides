@@ -110,8 +110,8 @@ configuration.json
                 "secure": false,
                 "service": "Mailgun",
                 "auth": {
-                    "user": "postmaster@activcount.info",
-                    "pass": "@@@@redelanax"
+                    "user": "postmaster@domain-name.ca",
+                    "pass": "password"
                 }
             }
         },
