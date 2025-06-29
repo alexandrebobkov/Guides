@@ -34,7 +34,7 @@ Reverse Proxy Configuration
             allow all;
         }
 
-    client_max_body_size 50m;
+        client_max_body_size 50m;
     }
 
 Ghost CMS
