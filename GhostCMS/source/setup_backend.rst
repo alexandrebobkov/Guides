@@ -7,7 +7,7 @@ Installation Steps
 #. **Update your system**  
 
    Ensure your server is up to date:  
-   ``$ sudo apt update && sudo apt upgrade``
+   ``$ sudo apt update && sudo apt upgrade -y``
 
 #. **Install Node.js, npm, and Yarn**  
 
@@ -48,7 +48,7 @@ Installation Steps
 #. **Start Ghost**  
 
    Once installed, start Ghost:  
-   
+
    ``$ ghost start``
 
 #. **Access the Ghost Admin**  
