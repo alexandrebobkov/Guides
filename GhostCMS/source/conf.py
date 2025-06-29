@@ -16,7 +16,7 @@ release = '06-2025'
 
 extensions = [
     "sphinx.ext.autodoc",
-    "simplepdf",
+    "sphinx_simplepdf",
 ]
 
 templates_path = ['_templates']
