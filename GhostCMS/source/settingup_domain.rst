@@ -6,10 +6,10 @@ DNS Configuration
 
 
 +------------+------------+------------+
-| Header 1   | Header 2   | Header 3   |
+|    Type    |   Name     |  Content   |
 +============+============+============+
-| Row 1 Col1 | Row 1 Col2 | Row 1 Col3 |
+| A | domain-name.ca | Public IP Address |
 +------------+------------+------------+
-| Row 2 Col1 | Row 2 Col2 | Row 2 Col3 |
+| MX | domain-name.ca | mail.domain-name.ca |
 +------------+------------+------------+
 
