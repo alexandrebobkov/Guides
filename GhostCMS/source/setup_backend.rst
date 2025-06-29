@@ -33,7 +33,7 @@ Installation Steps
 
     To install Node.js, npm, and Yarn:  
 
-    ``$ curl -sL https://deb.nodesource.com/setup_21.x | sudo -E bash -``  
+    ``$ curl -sL https://deb.nodesource.com/setup_20.x | sudo -E bash -``  
 
     ``$ sudo apt install -y nodejs``  
 
