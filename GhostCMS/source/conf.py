@@ -20,6 +20,7 @@ extensions = [
     "sphinx.ext.autodoc",
     "sphinx.ext.mathjax",
     "sphinx.ext.imgmath",
+    "sphinx_simplepdf",
     #"sphinx_simplepdf",
 ]
 
