@@ -1,5 +1,6 @@
 \babel@toc {english}{}\relax 
 \contentsline {chapter}{\numberline {1}GHOST CMS INSTALLATION}{3}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Installation Steps}{3}{section.1.1}%
 \contentsline {chapter}{\numberline {2}SETING UP FRONT END}{5}{chapter.2}%
 \contentsline {section}{\numberline {2.1}Domain Name}{5}{section.2.1}%
 \contentsline {subsection}{\numberline {2.1.1}DNS Configuration}{6}{subsection.2.1.1}%

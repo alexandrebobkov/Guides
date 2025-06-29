@@ -95,6 +95,62 @@ documentation for details.
 
 \chapter{GHOST CMS INSTALLATION}
 \label{\detokenize{setup_backend:ghost-cms-installation}}\label{\detokenize{setup_backend::doc}}
+
+\section{Installation Steps}
+\label{\detokenize{setup_backend:installation-steps}}\begin{enumerate}
+\sphinxsetlistlabels{\arabic}{enumi}{enumii}{}{.}%
+\item {} 
+\sphinxAtStartPar
+\sphinxstylestrong{Update your system}
+Ensure your server is up to date:
+\sphinxcode{\sphinxupquote{\$ sudo apt update \&\& sudo apt upgrade}}
+
+\item {} 
+\sphinxAtStartPar
+\sphinxstylestrong{Install Node.js, npm, and Yarn}
+Ghost CMS requires Node.js (LTS version). Install Node.js, npm, and Yarn:
+\sphinxcode{\sphinxupquote{\$ curl \sphinxhyphen{}sL https://deb.nodesource.com/setup\_18.x | sudo \sphinxhyphen{}E bash \sphinxhyphen{}}}
+\sphinxcode{\sphinxupquote{\$ sudo apt install \sphinxhyphen{}y nodejs}}
+\sphinxcode{\sphinxupquote{\$ sudo npm install \sphinxhyphen{}g yarn}}
+
+\item {} 
+\sphinxAtStartPar
+\sphinxstylestrong{Install Ghost\sphinxhyphen{}CLI}
+Ghost\sphinxhyphen{}CLI is a command\sphinxhyphen{}line tool for installing and managing Ghost:
+\sphinxcode{\sphinxupquote{\$ sudo npm install \sphinxhyphen{}g ghost\sphinxhyphen{}cli@latest}}
+
+\item {} 
+\sphinxAtStartPar
+\sphinxstylestrong{Create a directory for Ghost}
+Choose a directory (e.g., /var/www/ghost) and set correct permissions:
+\sphinxcode{\sphinxupquote{\$ sudo mkdir \sphinxhyphen{}p /var/www/ghost}}
+\sphinxcode{\sphinxupquote{\$ sudo chown \$USER:\$USER /var/www/ghost}}
+\sphinxcode{\sphinxupquote{\$ cd /var/www/ghost}}
+
+\item {} 
+\sphinxAtStartPar
+\sphinxstylestrong{Install Ghost}
+Run the install command inside your Ghost directory:
+\sphinxcode{\sphinxupquote{\$ ghost install}}
+
+\item {} 
+\sphinxAtStartPar
+\sphinxstylestrong{Configure Nginx and SSL (optional but recommended)}
+Ghost\sphinxhyphen{}CLI can set up Nginx and SSL for you during installation. Follow the prompts to enable these features.
+
+\item {} 
+\sphinxAtStartPar
+\sphinxstylestrong{Start Ghost}
+Once installed, start Ghost:
+\sphinxcode{\sphinxupquote{\$ ghost start}}
+
+\item {} 
+\sphinxAtStartPar
+\sphinxstylestrong{Access the Ghost Admin}
+Open your browser and go to \sphinxcode{\sphinxupquote{http://your\sphinxhyphen{}domain.ca/ghost}} to complete the setup via the web interface.
+
+\end{enumerate}
+
 \sphinxstepscope
 
 

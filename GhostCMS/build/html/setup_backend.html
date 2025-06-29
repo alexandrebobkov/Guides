@@ -42,6 +42,37 @@
             
   <section id="ghost-cms-installation">
 <h1>GHOST CMS INSTALLATION<a class="headerlink" href="#ghost-cms-installation" title="Link to this heading">¶</a></h1>
+<section id="installation-steps">
+<h2>Installation Steps<a class="headerlink" href="#installation-steps" title="Link to this heading">¶</a></h2>
+<ol class="arabic simple">
+<li><p><strong>Update your system</strong>
+Ensure your server is up to date:
+<code class="docutils literal notranslate"><span class="pre">$</span> <span class="pre">sudo</span> <span class="pre">apt</span> <span class="pre">update</span> <span class="pre">&amp;&amp;</span> <span class="pre">sudo</span> <span class="pre">apt</span> <span class="pre">upgrade</span></code></p></li>
+<li><p><strong>Install Node.js, npm, and Yarn</strong>
+Ghost CMS requires Node.js (LTS version). Install Node.js, npm, and Yarn:
+<code class="docutils literal notranslate"><span class="pre">$</span> <span class="pre">curl</span> <span class="pre">-sL</span> <span class="pre">https://deb.nodesource.com/setup_18.x</span> <span class="pre">|</span> <span class="pre">sudo</span> <span class="pre">-E</span> <span class="pre">bash</span> <span class="pre">-</span></code>
+<code class="docutils literal notranslate"><span class="pre">$</span> <span class="pre">sudo</span> <span class="pre">apt</span> <span class="pre">install</span> <span class="pre">-y</span> <span class="pre">nodejs</span></code>
+<code class="docutils literal notranslate"><span class="pre">$</span> <span class="pre">sudo</span> <span class="pre">npm</span> <span class="pre">install</span> <span class="pre">-g</span> <span class="pre">yarn</span></code></p></li>
+<li><p><strong>Install Ghost-CLI</strong>
+Ghost-CLI is a command-line tool for installing and managing Ghost:
+<code class="docutils literal notranslate"><span class="pre">$</span> <span class="pre">sudo</span> <span class="pre">npm</span> <span class="pre">install</span> <span class="pre">-g</span> <span class="pre">ghost-cli&#64;latest</span></code></p></li>
+<li><p><strong>Create a directory for Ghost</strong>
+Choose a directory (e.g., /var/www/ghost) and set correct permissions:
+<code class="docutils literal notranslate"><span class="pre">$</span> <span class="pre">sudo</span> <span class="pre">mkdir</span> <span class="pre">-p</span> <span class="pre">/var/www/ghost</span></code>
+<code class="docutils literal notranslate"><span class="pre">$</span> <span class="pre">sudo</span> <span class="pre">chown</span> <span class="pre">$USER:$USER</span> <span class="pre">/var/www/ghost</span></code>
+<code class="docutils literal notranslate"><span class="pre">$</span> <span class="pre">cd</span> <span class="pre">/var/www/ghost</span></code></p></li>
+<li><p><strong>Install Ghost</strong>
+Run the install command inside your Ghost directory:
+<code class="docutils literal notranslate"><span class="pre">$</span> <span class="pre">ghost</span> <span class="pre">install</span></code></p></li>
+<li><p><strong>Configure Nginx and SSL (optional but recommended)</strong>
+Ghost-CLI can set up Nginx and SSL for you during installation. Follow the prompts to enable these features.</p></li>
+<li><p><strong>Start Ghost</strong>
+Once installed, start Ghost:
+<code class="docutils literal notranslate"><span class="pre">$</span> <span class="pre">ghost</span> <span class="pre">start</span></code></p></li>
+<li><p><strong>Access the Ghost Admin</strong>
+Open your browser and go to <code class="docutils literal notranslate"><span class="pre">http://your-domain.ca/ghost</span></code> to complete the setup via the web interface.</p></li>
+</ol>
+</section>
 </section>
 
 
@@ -51,6 +82,16 @@
       </div>
       <div class="sphinxsidebar" role="navigation" aria-label="Main">
         <div class="sphinxsidebarwrapper">
+  <div>
+    <h3><a href="index.html">Table of Contents</a></h3>
+    <ul>
+<li><a class="reference internal" href="#">GHOST CMS INSTALLATION</a><ul>
+<li><a class="reference internal" href="#installation-steps">Installation Steps</a></li>
+</ul>
+</li>
+</ul>
+
+  </div>
   <div>
     <h4>Previous topic</h4>
     <p class="topless"><a href="index.html"

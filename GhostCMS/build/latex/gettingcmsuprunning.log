@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2024.10.18)  29 JUN 2025 09:57
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2024.10.18)  29 JUN 2025 17:17
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -876,22 +876,22 @@ Chapter 1.
 
 ]
 Chapter 2.
-<switch.jpg, id=111, 6070.68pt x 4039.09pt>
+<switch.jpg, id=124, 6070.68pt x 4039.09pt>
 File: switch.jpg Graphic file (type jpg)
 <use switch.jpg>
-Package pdftex.def Info: switch.jpg  used on input line 106.
+Package pdftex.def Info: switch.jpg  used on input line 162.
 (pdftex.def)             Requested size: 469.7318pt x 312.53319pt.
 [5 <./switch.jpg>] [6]
 Chapter 3.
 LaTeX Font Info:    Font shape `T1/txtt/m/it' in size <10> not available
-(Font)              Font shape `T1/txtt/m/sl' tried instead on input line 195.
+(Font)              Font shape `T1/txtt/m/sl' tried instead on input line 251.
 [7
 
 ]
 LaTeX Font Info:    Font shape `T1/txtt/b/n' in size <10> not available
-(Font)              Font shape `T1/txtt/bx/n' tried instead on input line 271.
+(Font)              Font shape `T1/txtt/bx/n' tried instead on input line 327.
 
-Overfull \vbox (3.49933pt too high) detected at line 309
+Overfull \vbox (3.49933pt too high) detected at line 365
  []
 
 [8] [9] [10
@@ -904,13 +904,13 @@ LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-22>
  ***********
 Package rerunfilecheck Info: File `gettingcmsuprunning.out' has not changed.
-(rerunfilecheck)             Checksum: 73EFFF385744C8A67E2A3769DB4479BF;2359.
+(rerunfilecheck)             Checksum: CE80DFD4E608C7D0E641461539FC0266;2507.
  ) 
 Here is how much of TeX's memory you used:
- 16748 strings out of 476106
- 284332 string characters out of 5793932
+ 16761 strings out of 476106
+ 284500 string characters out of 5793932
  2021975 words of memory out of 5000000
- 38358 multiletter control sequences out of 15000+600000
+ 38362 multiletter control sequences out of 15000+600000
  609004 words of font info for 76 fonts, out of 8000000 for 9000
  60 hyphenation exceptions out of 8191
  72i,11n,83p,1208b,659s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -922,10 +922,10 @@ r/share/texmf/fonts/type1/public/tex-gyre/qtmb.pfb></usr/share/texmf/fonts/type
 1/public/tex-gyre/qtmr.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/tx
 fonts/t1xbtt.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/t1xt
 t.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/t1xtt.pfb>
-Output written on gettingcmsuprunning.pdf (15 pages, 1356919 bytes).
+Output written on gettingcmsuprunning.pdf (15 pages, 1362579 bytes).
 PDF statistics:
- 189 PDF objects out of 1000 (max. 8388607)
- 154 compressed objects within 2 object streams
- 29 named destinations out of 1000 (max. 500000)
- 130 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 206 PDF objects out of 1000 (max. 8388607)
+ 171 compressed objects within 2 object streams
+ 38 named destinations out of 1000 (max. 500000)
+ 138 words of extra memory for PDF output out of 10000 (max. 10000000)
 
