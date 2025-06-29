@@ -45,6 +45,7 @@ simplepdf_author = 'Alexander B.'
 simplepdf_file_name = 'cms-setup-guide.pdf'
 simplepdf_vars = {
     'cover-overlay': '#047e2c',
+    'cover-bg': '#FFFFFF',
     'primary-opaque': 'rgba(26, 150, 26, 0.8)',
     'primary': "#1A961A",
     'secondary': "#379683",
