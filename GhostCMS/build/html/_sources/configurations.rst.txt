@@ -45,7 +45,7 @@ Reverse Proxy Configuration (non-SSL)
 
 .. tip::
 
-    You may run command ($ ghost ls) to display the port number of Ghost CMS instance.
+    You may run the command ``ghost ls`` to display the port number of the Ghost CMS instance.
 
 Reverse Proxy Configuration (SSL)
 
@@ -90,4 +90,3 @@ Ghost CMS
 
 .. code-block:: json
 
-    
