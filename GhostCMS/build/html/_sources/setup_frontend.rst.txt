@@ -25,7 +25,7 @@ Marketing E-Mail Campaigns (MAILGUN)
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. important::
-    For Ghost CMS to function properly, you need to set up e-mail services for sending notification and authentication e-mails. While there are many providers, Mailgun is recommended. Create a Mailgun account and configure it to handle your domain's email delivery. This is essential for sending newsletters and other marketing emails.
+    To enable Ghost CMS to send authentication emails, newsletters, and marketing messages, you need to configure an email delivery service. Mailgun is natively supported by Ghost CMS, making integration simple and reliable. Just sign up for a Mailgun account, add your domain, and update your Ghost configuration to start sending emails with minimal hassle.
 
 Business E-Mail (Google Workspace)
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
