@@ -38,7 +38,6 @@ Reverse Proxy Configuration (non-SSL)
     }
 
 .. important::
-
     This configuration is for a reverse proxy setup with Nginx, which forwards requests to the Ghost CMS instance running on port 2368. Ensure that the server name matches your domain and that the root directory and port number are set correctly.
 
 .. tip::
@@ -84,7 +83,6 @@ Reverse Proxy Configuration (SSL)
 
 Ghost CMS
 ------------------
-
 
 configuration.json
 ~~~~~~~~~~~~~~~~~~~~~~
