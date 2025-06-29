@@ -279,7 +279,7 @@ dl.class dl.field-list, dl.type dl.field-list, dl.function dl.field-list, dl.mem
     line-height: 15pt;
     margin: 3em 0 1em; }
     .contents > ul > li::before {
-      background: #961a1a;
+      background: #23F3FA;
       color: #ffffff;
       content: "";
       display: block;
@@ -290,7 +290,7 @@ dl.class dl.field-list, dl.type dl.field-list, dl.function dl.field-list, dl.mem
       color: #000000;
       font-size: 15pt; }
     .contents > ul > li a::after {
-      color: #961a1a;
+      color: #23F3FA;
       content: target-counter(attr(href url), page);
       float: right; }
     .contents > ul > li > ul {
@@ -306,7 +306,7 @@ dl.class dl.field-list, dl.type dl.field-list, dl.function dl.field-list, dl.mem
           color: #000000;
           font-size: 12pt; }
         .contents > ul > li > ul li p::before {
-          color: #961a1a;
+          color: #23F3FA;
           content: "• ";
           font-size: 40pt;
           line-height: 16pt;
@@ -328,7 +328,7 @@ dl.class dl.field-list, dl.type dl.field-list, dl.function dl.field-list, dl.mem
         color: #000000;
         font-size: 13pt; }
       .sphinxsidebarwrapper div > ul > li a::after {
-        color: #961a1a;
+        color: #23F3FA;
         content: target-counter(attr(href url), page);
         float: right; }
       .sphinxsidebarwrapper div > ul > li > ul {
@@ -344,7 +344,7 @@ dl.class dl.field-list, dl.type dl.field-list, dl.function dl.field-list, dl.mem
             color: #000000;
             font-size: 12pt; }
           .sphinxsidebarwrapper div > ul > li > ul li a::before {
-            color: #961a1a;
+            color: #23F3FA;
             content: "• ";
             font-size: 30pt;
             line-height: 10pt;
@@ -380,7 +380,7 @@ dl.class dl.field-list, dl.type dl.field-list, dl.function dl.field-list, dl.mem
 @page {
   padding-top: 1em;
   @top-left {
-    background: #961a1a;
+    background: #23F3FA;
     color: #ffffff;
     content: counter(page);
     height: 1cm;
@@ -474,7 +474,7 @@ dl.class dl.field-list, dl.type dl.field-list, dl.function dl.field-list, dl.mem
     margin: 0; } }
 
 @page chapter {
-  background: #961a1a;
+  background: #23F3FA;
   color: #ffffff;
   margin: 0;
   @top-left {
@@ -512,13 +512,13 @@ dl.class dl.field-list, dl.type dl.field-list, dl.function dl.field-list, dl.mem
   margin: 0; }
   #cover h1 {
     font-family: "Work Sans", sans-serif;
-    color: #961a1a;
+    color: #23F3FA;
     font-size: 38pt;
     margin: 5cm 2cm 0 2cm;
     page: no-chapter;
     width: 100%; }
   #cover a {
-    color: #ffffff;
+    color: #FFFFFF;
     font-weight: bolder; }
   #cover .container {
     width: 100%;
@@ -526,7 +526,7 @@ dl.class dl.field-list, dl.type dl.field-list, dl.function dl.field-list, dl.mem
     background: rgba(0,0,0,0); }
     #cover .container .logo {
       font-size: 24pt;
-      color: #ffffff;
+      color: #FFFFFF;
       width: 200px;
       height: 45px;
       position: absolute;
@@ -550,19 +550,19 @@ dl.class dl.field-list, dl.type dl.field-list, dl.function dl.field-list, dl.mem
           margin-bottom: 0;
           margin-top: 0;
           margin-left: 0;
-          color: #ffffff; }
+          color: #FFFFFF; }
         #cover .container .cover-middle .title .subtitle-cover {
           font-family: "Work Sans Bold", sans-serif;
           font-weight: bolder;
           font-size: 28pt;
           margin-top: 5pt;
-          color: #ffffff; }
+          color: #FFFFFF; }
         #cover .container .cover-middle .title .meta {
           font-family: 'Work Sans';
           font-size: 18pt;
           margin-top: 12pt;
           margin-bottom: 0;
-          color: #ffffff; }
+          color: #FFFFFF; }
       #cover .container .cover-middle .client-logo {
         position: absolute;
         border-radius: 8pt;
@@ -865,7 +865,7 @@ html {
   font-weight: 300;
   line-height: 1.5; }
   html body h1 {
-    color: #961a1a;
+    color: #23F3FA;
     font-size: 30pt;
     page-break-before: always; }
   html body h2, html body h3, html body h4 {
