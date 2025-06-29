@@ -819,10 +819,12 @@ e
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 Package hyperref Info: Link coloring ON on input line 73.
+(./gettingcmsuprunning.out) (./gettingcmsuprunning.out)
 \@outlinefile=\write5
 \openout5 = `gettingcmsuprunning.out'.
 
 Package hyperref Info: Option `pageanchor' set `false' on input line 81.
+
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\spacefactor' on input line 81.
@@ -852,22 +854,21 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 dvips/tex-gyre/q-ec.enc}] [2
 
 
-]
-No file gettingcmsuprunning.toc.
+] (./gettingcmsuprunning.toc)
 \tf@toc=\write6
 \openout6 = `gettingcmsuprunning.toc'.
 
-[1
+ [1
 
 ] [2
 
 ]
 LaTeX Font Info:    Trying to load font information for T1+txtt on input line 8
 9.
- (/usr/share/texlive/texmf-dist/tex/latex/txfonts/t1txtt.fd
+
+(/usr/share/texlive/texmf-dist/tex/latex/txfonts/t1txtt.fd
 File: t1txtt.fd 2000/12/15 v3.1
-) [1]
-[2
+) [1] [2
 
 ]
 Chapter 1.
@@ -875,7 +876,7 @@ Chapter 1.
 
 ]
 Chapter 2.
-<switch.jpg, id=49, 6070.68pt x 4039.09pt>
+<switch.jpg, id=111, 6070.68pt x 4039.09pt>
 File: switch.jpg Graphic file (type jpg)
 <use switch.jpg>
 Package pdftex.def Info: switch.jpg  used on input line 106.
@@ -897,30 +898,19 @@ Overfull \vbox (3.49933pt too high) detected at line 309
 
 ]
 Chapter 4.
-No file gettingcmsuprunning.ind.
-[11] (./gettingcmsuprunning.aux)
+(./gettingcmsuprunning.ind) [11] (./gettingcmsuprunning.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-22>
  ***********
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-
-Package rerunfilecheck Warning: File `gettingcmsuprunning.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `gettingcmsuprunning.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  73EFFF385744C8A67E2A3769DB4479BF;2359.
+Package rerunfilecheck Info: File `gettingcmsuprunning.out' has not changed.
+(rerunfilecheck)             Checksum: 73EFFF385744C8A67E2A3769DB4479BF;2359.
  ) 
 Here is how much of TeX's memory you used:
- 16722 strings out of 476106
- 283831 string characters out of 5793932
+ 16748 strings out of 476106
+ 284332 string characters out of 5793932
  2021975 words of memory out of 5000000
- 38341 multiletter control sequences out of 15000+600000
+ 38358 multiletter control sequences out of 15000+600000
  609004 words of font info for 76 fonts, out of 8000000 for 9000
  60 hyphenation exceptions out of 8191
  72i,11n,83p,1208b,659s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -932,10 +922,10 @@ r/share/texmf/fonts/type1/public/tex-gyre/qtmb.pfb></usr/share/texmf/fonts/type
 1/public/tex-gyre/qtmr.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/tx
 fonts/t1xbtt.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/t1xt
 t.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/t1xtt.pfb>
-Output written on gettingcmsuprunning.pdf (15 pages, 1351014 bytes).
+Output written on gettingcmsuprunning.pdf (15 pages, 1356919 bytes).
 PDF statistics:
- 139 PDF objects out of 1000 (max. 8388607)
- 104 compressed objects within 2 object streams
+ 189 PDF objects out of 1000 (max. 8388607)
+ 154 compressed objects within 2 object streams
  29 named destinations out of 1000 (max. 500000)
- 26 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 130 words of extra memory for PDF output out of 10000 (max. 10000000)
 
