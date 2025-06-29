@@ -17,6 +17,11 @@ documentation for details.
 
    installing_ghost
    settingup_domain
+
+.. toctree::
+   :maxdepth: 1
+   :caption: Additional Resources:
+   
    configurations
    frequent_commands
 
