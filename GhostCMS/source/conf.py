@@ -37,7 +37,7 @@ html_theme = 'classic'
 html_static_path = ['_static']
 
 # -- Options for simplepdf output --------------------------------------------
-simplepdf_style = 'green'
+simplepdf_css = '_static/simplepdf_alex.css'
 simplepdf_coverpage = True
 simplepdf_toc_depth = 3
 simplepdf_title = 'Getting CMS Up & Running'
