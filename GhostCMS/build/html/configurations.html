@@ -77,8 +77,7 @@ server<span class="w"> </span><span class="o">{</span>
 </div>
 <div class="admonition important">
 <p class="admonition-title">Important</p>
-<p>This configuration is for a reverse proxy setup with Nginx, which forwards requests to the Ghost CMS instance running on port 2368. The <cite>X-Content-Type-Options</cite> header is set to <cite>nosniff</cite> to prevent MIME type sniffing, enhancing security.</p>
-<p>Ensure that the server name matches your domain and that the root directory and port number are set correctly.</p>
+<p>This configuration is for a reverse proxy setup with Nginx, which forwards requests to the Ghost CMS instance running on port 2368. Ensure that the server name matches your domain and that the root directory and port number are set correctly.</p>
 </div>
 <div class="admonition tip">
 <p class="admonition-title">Tip</p>
@@ -122,7 +121,45 @@ server<span class="w"> </span><span class="o">{</span>
 </section>
 <section id="ghost-cms">
 <h2>Ghost CMS<a class="headerlink" href="#ghost-cms" title="Link to this heading">¶</a></h2>
-<div class="highlight-json notranslate"><div class="highlight"><pre><span></span>
+<div class="highlight-json notranslate"><div class="highlight"><pre><span></span><span class="p">{</span>
+<span class="w">    </span><span class="nt">&quot;url&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;https://techquadbit.net&quot;</span><span class="p">,</span>
+<span class="w">    </span><span class="nt">&quot;server&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">        </span><span class="nt">&quot;port&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">2370</span><span class="p">,</span>
+<span class="w">        </span><span class="nt">&quot;host&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;127.0.0.1&quot;</span>
+<span class="w">    </span><span class="p">},</span>
+<span class="w">    </span><span class="nt">&quot;database&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">        </span><span class="nt">&quot;client&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;mysql&quot;</span><span class="p">,</span>
+<span class="w">        </span><span class="nt">&quot;connection&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">            </span><span class="nt">&quot;host&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;127.0.0.1&quot;</span><span class="p">,</span>
+<span class="w">            </span><span class="nt">&quot;user&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;ghost-66&quot;</span><span class="p">,</span>
+<span class="w">            </span><span class="nt">&quot;password&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;%MIRFnU]qo+Cv@)07&amp;ei&quot;</span><span class="p">,</span>
+<span class="w">            </span><span class="nt">&quot;database&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;techquadbit_4&quot;</span>
+<span class="w">        </span><span class="p">}</span>
+<span class="w">    </span><span class="p">},</span>
+<span class="w">    </span><span class="nt">&quot;mail&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">        </span><span class="nt">&quot;transport&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;SMTP&quot;</span><span class="p">,</span>
+<span class="w">        </span><span class="nt">&quot;options&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">            </span><span class="nt">&quot;host&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;smtp.mailgun.org&quot;</span><span class="p">,</span>
+<span class="w">            </span><span class="nt">&quot;port&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">587</span><span class="p">,</span>
+<span class="w">            </span><span class="nt">&quot;secure&quot;</span><span class="p">:</span><span class="w"> </span><span class="kc">false</span><span class="p">,</span>
+<span class="w">            </span><span class="nt">&quot;service&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Mailgun&quot;</span><span class="p">,</span>
+<span class="w">            </span><span class="nt">&quot;auth&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">                </span><span class="nt">&quot;user&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;postmaster@activcount.info&quot;</span><span class="p">,</span>
+<span class="w">                </span><span class="nt">&quot;pass&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;@@@@redelanax&quot;</span>
+<span class="w">            </span><span class="p">}</span>
+<span class="w">        </span><span class="p">}</span>
+<span class="w">    </span><span class="p">},</span>
+<span class="w">    </span><span class="nt">&quot;logging&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">        </span><span class="nt">&quot;transports&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span>
+<span class="w">            </span><span class="s2">&quot;file&quot;</span><span class="p">,</span>
+<span class="w">            </span><span class="s2">&quot;stdout&quot;</span>
+<span class="w">        </span><span class="p">]</span>
+<span class="w">    </span><span class="p">},</span>
+<span class="w">    </span><span class="nt">&quot;process&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;systemd&quot;</span><span class="p">,</span>
+<span class="w">    </span><span class="nt">&quot;paths&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">        </span><span class="nt">&quot;contentPath&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;/var/www/techquadbit.net/content&quot;</span>
+<span class="w">    </span><span class="p">}</span>
+<span class="p">}</span>
 </pre></div>
 </div>
 </section>
