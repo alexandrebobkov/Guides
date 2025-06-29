@@ -42,7 +42,6 @@ simplepdf_coverpage = True
 simplepdf_toc_depth = 3
 simplepdf_title = 'Getting CMS Up & Running'
 simplepdf_author = 'Alexander B.'
-simplepdf_css = '_static/simplepdf.css'
 simplepdf_file_name = 'cms-setup-guide.pdf'
 simplepdf_vars = {
     'links': '#FF3333',
