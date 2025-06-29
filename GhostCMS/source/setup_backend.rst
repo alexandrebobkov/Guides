@@ -11,7 +11,11 @@ Installation Steps
 
 #. **Install Node.js, npm, and Yarn**  
 
-   Ghost CMS requires Node.js (LTS version). Install Node.js, npm, and Yarn:  
+Ghost CMS requires Node.js (LTS version). You may consider looking up Ghost documentatoin to check required version. At the time of publishing this guide, the versions of Nide.js and Ghost CMS are summarized in the table below:
+   
+  
+
+To install Node.js, npm, and Yarn:  
 
    ``$ curl -sL https://deb.nodesource.com/setup_18.x | sudo -E bash -``  
 
