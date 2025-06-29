@@ -7,7 +7,7 @@ DOMAIN DNS
 .. image:: graphics/switch.jpg
 
 DNS Configuration
-------------------
+^^^^^^^^^^^^^^^^^^
 
 
 +------+------------------+---------------------+
