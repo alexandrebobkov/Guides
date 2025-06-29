@@ -1,8 +1,10 @@
 CONFIGURATIONS
 ==================
 
-NGINX
+Nginx
 ------------------
+
+Reverse Proxy Configuration
 
 .. code-block:: bash
 
