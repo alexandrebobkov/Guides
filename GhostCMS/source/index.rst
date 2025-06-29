@@ -15,6 +15,8 @@ documentation for details.
    :maxdepth: 2
    :caption: Contents:
 
+   installing_ghost
+   settingup_domain
    configurations
    frequent_commands
 
