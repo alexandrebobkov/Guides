@@ -1,6 +1,8 @@
 SETING UP DOMAIN
 ==================
 
+.. image:: graphics/switch.jpg
+
 DNS Configuration
 ------------------
 
