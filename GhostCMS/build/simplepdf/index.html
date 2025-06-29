@@ -133,7 +133,7 @@
            </a>
           </h3>
           <p>
-           Reverse Proxy Configuration
+           Reverse Proxy Configuration (non-SSL)
           </p>
           <div class="highlight-bash notranslate">
            <div class="highlight">
@@ -168,9 +168,9 @@ server<span class="w"> </span><span class="o">{</span>
 </pre>
            </div>
           </div>
-          <div class="admonition note">
+          <div class="admonition important">
            <p class="admonition-title">
-            Note
+            Important
            </p>
            <p>
             This configuration is for a reverse proxy setup with Nginx, which forwards requests to the Ghost CMS instance running on port 2368. The
@@ -184,8 +184,56 @@ server<span class="w"> </span><span class="o">{</span>
             to prevent MIME type sniffing, enhancing security.
            </p>
            <p>
-            Ensure that the server name matches your domain and that the root directory is set correctly.
+            Ensure that the server name matches your domain and that the root directory and port number are set correctly.
            </p>
+          </div>
+          <div class="admonition tip">
+           <p class="admonition-title">
+            Tip
+           </p>
+           <p>
+            You may run command $ ghost ls to display the port number of Ghost CMS instance.
+           </p>
+          </div>
+          <p>
+           Reverse Proxy Configuration (SSL)
+          </p>
+          <div class="highlight-bash notranslate">
+           <div class="highlight">
+            <pre><span></span>map<span class="w"> </span><span class="nv">$status</span><span class="w"> </span><span class="nv">$header_content_type_options</span><span class="w"> </span><span class="o">{</span>
+<span class="m">204</span><span class="w"> </span><span class="s2">""</span><span class="p">;</span>
+default<span class="w"> </span><span class="s2">"nosniff"</span><span class="p">;</span>
+<span class="o">}</span>
+
+server<span class="w"> </span><span class="o">{</span>
+<span class="w">    </span>listen<span class="w"> </span><span class="m">443</span><span class="w"> </span>ssl<span class="w"> </span>http2<span class="p">;</span>
+<span class="w">    </span>listen<span class="w"> </span><span class="o">[</span>::<span class="o">]</span>:443<span class="w"> </span>ssl<span class="w"> </span>http2<span class="p">;</span>
+
+<span class="w">    </span>server_name<span class="w"> </span>activcount.ca<span class="p">;</span>
+<span class="w">    </span>root<span class="w"> </span>/var/www/activcount/system/nginx-root<span class="p">;</span><span class="w"> </span><span class="c1"># Used for acme.sh SSL verification (https://acme.sh)</span>
+
+<span class="w">    </span>ssl_certificate<span class="w"> </span>/etc/letsencrypt/activcount.ca/fullchain.cer<span class="p">;</span>
+<span class="w">    </span>ssl_certificate_key<span class="w"> </span>/etc/letsencrypt/activcount.ca/activcount.ca.key<span class="p">;</span>
+<span class="w">    </span>include<span class="w"> </span>/etc/nginx/snippets/ssl-params.conf<span class="p">;</span>
+
+<span class="w">    </span>location<span class="w"> </span>/<span class="w"> </span><span class="o">{</span>
+<span class="w">        </span>proxy_set_header<span class="w"> </span>X-Forwarded-For<span class="w"> </span><span class="nv">$proxy_add_x_forwarded_for</span><span class="p">;</span>
+<span class="w">        </span>proxy_set_header<span class="w"> </span>X-Forwarded-Proto<span class="w"> </span><span class="nv">$scheme</span><span class="p">;</span>
+<span class="w">        </span>proxy_set_header<span class="w"> </span>X-Real-IP<span class="w"> </span><span class="nv">$remote_addr</span><span class="p">;</span>
+<span class="w">        </span>proxy_set_header<span class="w"> </span>Host<span class="w"> </span><span class="nv">$http_host</span><span class="p">;</span>
+<span class="w">        </span>proxy_pass<span class="w"> </span>http://127.0.0.1:2368<span class="p">;</span>
+
+<span class="w">        </span>add_header<span class="w"> </span>X-Content-Type-Options<span class="w"> </span><span class="nv">$header_content_type_options</span><span class="p">;</span>
+<span class="w">    </span><span class="o">}</span>
+
+<span class="w">    </span>location<span class="w"> </span>~<span class="w"> </span>/.well-known<span class="w"> </span><span class="o">{</span>
+<span class="w">        </span>allow<span class="w"> </span>all<span class="p">;</span>
+<span class="w">    </span><span class="o">}</span>
+
+<span class="w">        </span>client_max_body_size<span class="w"> </span>1g<span class="p">;</span>
+<span class="o">}</span>
+</pre>
+           </div>
           </div>
          </section>
          <section id="ghost-cms">
