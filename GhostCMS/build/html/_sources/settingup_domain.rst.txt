@@ -1,7 +1,7 @@
 SETING UP FRONT END
 ==================
 
-DOMAIN DNS
+Domain Name
 -------------------
 
 .. image:: graphics/switch.jpg
@@ -18,7 +18,7 @@ DNS Configuration
 | MX   | domain-name.ca   | mail.domain-name.ca |
 +------+------------------+---------------------+
 
-E-MAIL DELIVERY SERVICE
+E-Mail Delivery Service
 -------------------------
 
 MAILGUN
