@@ -69,6 +69,51 @@ Ubuntu Server Installation Steps
 NodeJS Installation Steps
 -------------------------
 
+#. **Update your system**
+
+    Ensure your server is up to date:
+    ``$ sudo apt update && sudo apt upgrade -y``
+
+#. **Download Node.js 20.11**
+
+    Navigate to a temporary directory and download the specific Node.js version:
+    ``$ cd /tmp``
+    ``$ wget https://nodejs.org/dist/v20.11.0/node-v20.11.0-linux-x64.tar.xz``
+
+#. **Verify the download (optional but recommended)**
+
+    Download and verify the checksum:
+    ``$ wget https://nodejs.org/dist/v20.11.0/SHASUMS256.txt``
+    ``$ sha256sum -c SHASUMS256.txt --ignore-missing``
+
+#. **Extract the Node.js archive**
+
+    Extract the downloaded archive:
+    ``$ tar -xf node-v20.11.0-linux-x64.tar.xz``
+
+#. **Install Node.js globally**
+
+    Copy Node.js files to the system directory:
+    ``$ sudo cp -r node-v20.11.0-linux-x64/* /usr/local/``
+
+#. **Create symbolic links**
+
+    Create symbolic links to make node and npm available system-wide:
+    ``$ sudo ln -sf /usr/local/bin/node /usr/bin/node``
+    ``$ sudo ln -sf /usr/local/bin/npm /usr/bin/npm``
+
+#. **Verify installation**
+
+    Check that Node.js and npm are installed correctly:
+    ``$ node --version``
+    ``$ npm --version``
+
+#. **Clean up temporary files**
+
+    Remove the downloaded files:
+    ``$ rm -rf /tmp/node-v20.11.0-linux-x64*``
+    ``$ rm -f /tmp/SHASUMS256.txt``
+
 #. **Install Node.js**
 
     Install Node.js using the official NodeSource repository:
