@@ -1,5 +1,10 @@
-GHOST CMS INSTALLATION
-======================
+BACKEND INSTALLATION
+====================
+
+Ubuntu Server Installation Steps
+--------------------------------
+
+
 
 Ghost CMS Installation Steps
 ----------------------------
